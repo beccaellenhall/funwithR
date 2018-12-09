@@ -19,11 +19,11 @@ knitr::opts_chunk$set(options(scipen=999)) # avoiding scientific notation
 
 ## Unclean Data
 
-![unclean excel sheet](project/unclean.png)
+![unclean excel sheet](https://github.com/beccaellenhall/funwithR/blob/master/CFC%20Data/Unclean.png)
 
 ## Clean Data
 
-![clean excel sheet](project/clean.png)
+![clean excel sheet](https://github.com/beccaellenhall/funwithR/blob/master/CFC%20Data/Clean.png)
 
 ## Data in Shiny
 
