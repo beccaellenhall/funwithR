@@ -1,33 +1,3 @@
----
-title: 'Final Presentation: CFC Data'
-author: "Rebecca Hall"
-date: "12/9/2018"
-output: ioslides_presentation
----
-
-```{r global_options, include=FALSE}
-knitr::opts_chunk$set(options(scipen=999)) # avoiding scientific notation
-```
-
-## Caseload Forecast Council
-
-* (The Caseload Forecast Council is charged with forecasting the entitlement caseloads for the State of Washington.
-..* Human Services (Foster Care, Nursing Homes), Medical Services (Adult Caretakers, Medicaid), Education (College Bound Scholarship Program, Charter Schools, Enrollment), Criminal Justice (Sentencing, Juvenile Rehabilitation)
-* The Council meets several times a year to adopt official forecasts that are the basis of the Governor's budget document and utilized by the legislature in the development of the omnibus biennial appropriations act.
-* POC: Mrs. Elaine Deschamps, Executive Director CFC
-
-
-## Unclean Data
-
-![unclean excel sheet](https://github.com/beccaellenhall/funwithR/blob/master/CFC%20Data/Unclean.png)
-
-## Clean Data
-
-![clean excel sheet](https://github.com/beccaellenhall/funwithR/blob/master/CFC%20Data/Clean.png)
-
-## Data in Shiny
-
-```{r}
 library(shiny)
 library(shinythemes)
 library(ggplot2)
@@ -208,4 +178,3 @@ server <- function(input, output) {
 
 # Create the Shiny app object
 shinyApp(ui = ui, server = server)
-```
