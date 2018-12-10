@@ -9,7 +9,7 @@ library(tools)
 library(readxl)
 
 
-CFCdata <- read.csv(file="https://github.com/beccaellenhall/funwithR/blob/master/CFC%20Data/CharterEnrollmentSampleData-2.csv", header=TRUE)
+CFCdata <- read.csv(file="https://raw.githubusercontent.com/beccaellenhall/funwithR/master/CFC%20Data/CharterEnrollmentSampleData-2.csv", header=TRUE)
 
 # Define UI for application that plots features of movies
 ui <- fluidPage(
