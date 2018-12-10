@@ -9,7 +9,7 @@ library(tools)
 library(readxl)
 
 
-CFCdata <- read_excel("https://github.com/beccaellenhall/funwithR/blob/master/CFC%20Data/CharterEnrollmentSampleData-2.xlsx", 
+CFCdata <- read_excel("https://raw.githubusercontent.com/beccaellenhall/funwithR/blob/master/CFC%20Data/CharterEnrollmentSampleData-2.xlsx", 
      sheet = "ComSch_Enrollment")
 
 # Define UI for application that plots features of movies
