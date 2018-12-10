@@ -142,7 +142,7 @@ server <- function(input, output) {
 
  # Create scatterplot
   output$scatterplot <- renderPlot({
-    ggplot(data = CFCdata, aes_string(x = input$x, y = input$y, color = input$z)) +
+    ggplot(data = CFCdata, aes_string(x = input$x, y = input$y, color = input$z), options(scipen=999)) +
       geom_point()
   })
   
